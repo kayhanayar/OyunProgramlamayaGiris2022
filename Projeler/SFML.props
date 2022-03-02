@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <IncludePath>$(SolutionDir)/../../Dependencies/include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)/../../Dependencies/lib;$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)/../../bin\</OutDir>
+    <IntDir>$(SolutionDir)\..\..\obj\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <Link>
+      <AdditionalDependencies>sfml-graphics-d.lib;sfml-main-d.lib;sfml-network-d.lib;sfml-system-d.lib;sfml-audio-d.lib;sfml-window-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <ClCompile>
+      <AssemblerListingLocation>$(SolutionDir)\..\..\obj\$(ProjectName)\</AssemblerListingLocation>
+    </ClCompile>
+    <ClCompile>
+      <ModuleOutputFile>$(SolutionDir)\..\..\obj\$(ProjectName)\</ModuleOutputFile>
+    </ClCompile>
+    <ClCompile>
+      <ModuleDependenciesFile>$(SolutionDir)\..\..\obj\$(ProjectName)\</ModuleDependenciesFile>
+    </ClCompile>
+    <ClCompile>
+      <ObjectFileName>$(SolutionDir)\..\..\obj\$(ProjectName)\</ObjectFileName>
+    </ClCompile>
+    <ClCompile>
+      <ProgramDataBaseFileName>$(SolutionDir)\..\..\obj\$(ProjectName)vc$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ClCompile>
+      <XMLDocumentationFileName>$(SolutionDir)\..\..\obj\$(ProjectName)\</XMLDocumentationFileName>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <BuildLog>
+      <Path>$(SolutionDir)/../../obj/$(MSBuildProjectName).log</Path>
+    </BuildLog>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>
