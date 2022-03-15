@@ -1,5 +1,5 @@
 #include "Pencere.hpp"
-
+#include<iostream>
 Pencere::Pencere()
 {
 	
@@ -28,9 +28,19 @@ void Pencere::olayKontrol()
 	{
 		if (olay.type == sf::Event::Closed)
 			m_pencere.close();
+		if (olay.type == sf::Event::KeyPressed)
+		{
+			
+			m_KlavyeBasma(olay.key.code);
+		}
 	}
 }
 void Pencere::ciz(sf::Drawable& sekil)
 {
 	m_pencere.draw(sekil);
+}
+
+void Pencere::klavyeFonksiyonu(std::function<void(sf::Keyboard::Key)> yeniFonk)
+{
+	m_KlavyeBasma = yeniFonk;
 }
