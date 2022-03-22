@@ -1,0 +1,40 @@
+hero.png
+AktifAnimasyon 	AyaktaSabit
+AktifYon	Sag
+--------------------------------
+AnimasyonIsmi	Yurume
+AnimsyonYon	Sag
+Koordinat	24 315
+Boyut		50 50
+CerceveSayisi	8
+--------------------------------
+AnimasyonIsmi	Yurume
+AnimsyonYon	Sol
+Koordinat	24 375
+Boyut		50 50
+CerceveSayisi	8
+--------------------------------
+AnimasyonIsmi	AyaktaSabit
+AnimsyonYon	Sag
+Koordinat	24 143
+Boyut		50 50
+CerceveSayisi	1
+--------------------------------
+AnimasyonIsmi	AyaktaSabit
+AnimsyonYon	Sol
+Koordinat	24 200
+Boyut		50 50
+CerceveSayisi	1
+--------------------------------
+AnimasyonIsmi	DizCokmusSabit
+AnimsyonYon	Sag
+Koordinat	75 143
+Boyut		50 50
+CerceveSayisi	1
+--------------------------------
+AnimasyonIsmi	DizCokmusSabit
+AnimsyonYon	Sol
+Koordinat	75 200
+Boyut		50 50
+CerceveSayisi	1
+--------------------------------
